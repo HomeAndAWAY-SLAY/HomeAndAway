@@ -18,7 +18,7 @@
 </head>
 <body>
     <header>
-        <img src="soberrebel-banner.png" alt="Sober Rebel Banner">
+        <img src="SoberRebel.png" alt="Sober Rebel Banner">
     </header>
 </body>
 </html>
