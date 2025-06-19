@@ -1,28 +1,96 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-  <meta charset="UTF-8">
-  <title>HomeAndAway</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>HomeAndAway – Sober Rebel</title>
+    <style>
+        /* Basinställningar */
+        body {
+            margin: 0;
+            font-family: 'Helvetica', sans-serif;
+            background-color: #fff;
+            color: #000;
+        }
+
+        /* Banner */
+        header {
+            background-color: #000; /* Svart bakgrund bakom bannern */
+            padding: 0;
+        }
+
+        header img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Navigationsmeny */
+        nav {
+            background-color: #8B0000; /* Vinröd */
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 8px 16px;
+            border: 2px solid white;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: white;
+            color: #8B0000;
+        }
+
+        /* Responsiv */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
 </head>
 <body>
-  <<img src="SoberRebel.png">
-    <h1>HomeAndAway</h1>
-    <p>En plats för tankar, bilder och äventyr</p>
-  </header>
-  <nav>
-    <a href="index.html">Start</a>
-    <a href="about.html">Om mig</a>
-    <a href="blog.html">Blogg</a>
-    <a href="gallery.html">Galleri</a>
-    <a href="contact.html">Kontakt</a>
-  </nav>
-  <main>
-    <h2>Välkommen!</h2>
-    <p>Det här är min digitala plats – en blandning av blogg, portfolio och konstnärligt hem. Känn dig som hemma!</p>
-  </main>
-  <footer>
-    © 2025 HomeAndAway
-  </footer>
+
+    <header>
+        <img src="SoberRebel.png" alt="Sober Rebel Banner">
+    </header>
+
+    <nav>
+        <a href="#om-mig">Om mig</a>
+        <a href="#blogg">Blogg</a>
+        <a href="#galleri">Galleri</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <!-- Platshållare för innehåll -->
+    <section id="om-mig">
+        <h2>Om mig</h2>
+        <p>Här kan du skriva en presentation...</p>
+    </section>
+
+    <section id="blogg">
+        <h2>Blogg</h2>
+        <p>Dina senaste inlägg...</p>
+    </section>
+
+    <section id="galleri">
+        <h2>Galleri</h2>
+        <p>Bilder, konst eller projekt...</p>
+    </section>
+
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Formulär eller e-postadress...</p>
+    </section>
+
 </body>
 </html>
